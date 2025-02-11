@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", serif;
+  height: 100%;
+}
+
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+.section-one {
+  background-color: black;
+}
+
+.navbar-container {
+  max-width: 70vw;
+  margin: 0 auto;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+.hero-container {
+  color: white;
+  max-width: 70vw;
+  margin: 48px auto 0px auto;
+  padding: 20px 0px 40px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  max-width: 500px;
+}
+
+.hero-text-container h1{
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.hero-text-container p{
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-text-container a {
+  padding: 10px 20px;
+  background-color: #28d865;
+  color: black;
+  border: 0;
+}
+
+.hero-image {
+  width: 600px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.section-two {
+  background-color: #05182e;
+  color: white;
+  padding: 20px 0;
+}
+
+.section-two h2 {
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 48px;
+}
+
+.playlist-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 20px 0;
+}
+
+.playlist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.section-three {
+  background-color: black;
+  color: white;
+  padding: 100px 0;
+}
+
+.section-three h1 {
+  width: 60vw;
+  margin: 0 auto;
+  font-weight: 100;
+}
+
+.section-three p {
+  width: 60vw;
+  margin: 0 auto;
+  text-align: end;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px 0px;
+}
+
+footer p {
+  text-align: center;
+}
